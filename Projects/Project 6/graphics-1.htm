@@ -50,31 +50,31 @@
 	logo1 = new Image
 	logo2 = new Image
 if (document.images) {
-	PrintButton1.src = "Images/Button-1.png"
-	PrintButton2.src = "Images/Button-2.png"
-	logo1.src = "Images/Logo1.png"
-	logo2.src = "Images/Logo2.png"
+	PrintButton1.src = "images/Button1.png"
+	PrintButton2.src = "images/Button2.png"
+	logo1.src = "images/Logo1.png"
+	logo2.src = "images/Logo2.png"
 }
 
 
 		var imgArray = new Array(
-			'CoupleHikingSm.jpg',
-			'OlderCouple5Sm.jpg',
-			'OlderBikingSmall.jpg',
-			'MotorcyleSm.jpg'
+			'CoupleHikingLg.jpg',
+			'ScubaLg.jpg',
+			'OlderBikingLarge.jpg',
+			'CoupleFlyFishingLg.jpg'
 
 		);
 
 
 		var titleArray = new Array(
 			'Couple Hiking',
-			'Older Couple ',
+			'Couple Scuba Diving ',
 			'Older Couple Biking',
-			'Couple on Motorcycle'
+			'Couple Fly Fishing'
 			
 		);
 			
-		var imgPath = "Images/Fullsize";
+		var imgPath = "images/fullsize";
 		
 		function swapImage(imgID) {
 
@@ -109,19 +109,19 @@ if (document.images) {
 <div>
 
 <div id="middle">
-	<a href="" onmouseover="document.getElementById('print').src='Images/Button-2.png';"
-	onmouseout="document.getElementById('print').src='Images/Button-1.png';">
+	<a href="" onmouseover="document.getElementById('print').src='images/Button2.png';"
+	onmouseout="document.getElementById('print').src='images/Button1.png';">
 
-	<img src="Images/Button-1.png" alt="Print Page" width="200" height="50" id="print" 
+	<img src="images/Button1.png" alt="Print Page" width="200" height="50" id="print" 
 	></a>
 </div>
 
 
 <div id="middle">
-	<a href="" onmouseover="document.getElementById('logo').src='Images/Logo2.png';"
-	onmouseout="document.getElementById('logo').src='Images/Logo1.png';">
+	<a href="" onmouseover="document.getElementById('logo').src='images/Logo2.png';"
+	onmouseout="document.getElementById('logo').src='images/Logo1.png';">
 
-	<img src="Images/Logo1.png" alt="Logo" width="175" height="150" id="logo"
+	<img src="images/Logo1.png" alt="Logo" width="175" height="150" id="logo"
 	></a>
 </div>
 
@@ -132,22 +132,22 @@ if (document.images) {
 
 
 <div id="thumbs">
-		<img src="Images/Thumbnails/CoupleHikingSm.jpg" alt="Couple Hiking" onmouseover="swapImage(0);">
-		<img src="Images/Thumbnails/OlderCouple5Sm.jpg" alt="Older Couple " onmouseover="swapImage(1);">
-		<img src="Images/Thumbnails/OlderBikingSmall.jpg" alt="Older Couple biking" onmouseover="swapImage(2);">
-		<img src="Images/Thumbnails/MotorcycleSm.jpg" alt="Couple on Motorcycle" onmouseover="swapImage(3);">
+		<img src="images/thumbnails/CoupleHikingSm.jpg" alt="Couple Hiking" onmouseover="swapImage(0);">
+		<img src="images/thumbnails/ScubaSmall.jpg" alt="Older Couple " onmouseover="swapImage(1);">
+		<img src="images/thumbnails/OlderBikingSmall.jpg" alt="Older Couple biking" onmouseover="swapImage(2);">
+		<img src="images/thumbnails/CoupleFlyFishingSm.jpg" alt="Couple on Motorcycle" onmouseover="swapImage(3);">
 		
 </div>
 
 	<div id="image">
 
-		<img id="theImage" src="Images/Fullsize/CoupleHikingLg.jpg" alt="Couple Hiking">
+		<img id="theImage" src="images/fullsize/CoupleHikingLg.jpg" alt="Couple Hiking">
 		<h3 id="bottomText">Couple Hiking</h3>
 	
 	</div>
 <br>
 <br>
-<img src="Images/Background-Image.png" alt="Background Image" id="BG">
+<img src="images/Background-Image.png" alt="Background Image" id="BG">
 
 <br>
 <br>
